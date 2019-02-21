@@ -1,0 +1,32 @@
+Source: ignition-plugins
+Standards-Version: 3.9.4
+Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
+Section: science
+Priority: extra
+Build-Depends: cmake,
+               debhelper (>= 7.0.50~),
+               doxygen,
+               libignition-cmake2-dev,
+               libignition-cmake2-dev,
+               libignition-common3-dev,
+               libignition-gazebo-dev,
+               libignition-gui-dev,
+               libignition-msgs3-dev
+               libignition-plugin-dev,
+               libignition-tools-dev,
+               libignition-transport6-dev,
+               libsdformat8-dev,
+               libtinyxml2-dev ,
+               qtquickcontrols2-5-dev,
+               libqt5core5a
+Vcs-Browser: https://bitbucket.org/ignitionrobotics/ign-plugins-release
+Vcs-Hg: https://bitbucket.org/ignitionrobotics/ign-plugins-release
+Homepage: https://bitbucket.org/ignitionrobotics/ign-plugins
+
+Package: libignition-plugins
+Architecture: any
+Section: libs
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Description: Ignition Robotics Plugins Library - Plugins libraries
