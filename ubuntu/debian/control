@@ -1,4 +1,4 @@
-Source: ignition-plugins
+Source: ignition-launch
 Standards-Version: 3.9.4
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
@@ -6,7 +6,6 @@ Priority: extra
 Build-Depends: cmake,
                debhelper (>= 7.0.50~),
                doxygen,
-               libignition-cmake2-dev,
                libignition-cmake2-dev,
                libignition-common3-dev,
                libignition-gazebo-dev,
@@ -19,14 +18,36 @@ Build-Depends: cmake,
                libtinyxml2-dev ,
                qtquickcontrols2-5-dev,
                libqt5core5a
-Vcs-Browser: https://bitbucket.org/ignitionrobotics/ign-plugins-release
-Vcs-Hg: https://bitbucket.org/ignitionrobotics/ign-plugins-release
-Homepage: https://bitbucket.org/ignitionrobotics/ign-plugins
+Vcs-Browser: https://bitbucket.org/ignitionrobotics/ign-launch-release
+Vcs-Hg: https://bitbucket.org/ignitionrobotics/ign-launch-release
+Homepage: https://bitbucket.org/ignitionrobotics/ign-launch
 
-Package: libignition-plugins
+Package: libignition-launch
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Robotics Plugins Library - Plugins libraries
+Description: Ignition Robotics Launch Library - Launch libraries
+
+Package: libignition-launch-dev
+Architecture: any
+Section: libdevel
+Depends: libignition-cmake2-dev,
+				 libignition-common3-dev,
+				 libignition-gazebo-dev,
+				 libignition-gui-dev,
+				 libignition-msgs3-dev
+				 libignition-plugin-dev,
+				 libignition-tools-dev,
+				 libignition-transport6-dev,
+				 libsdformat8-dev,
+				 libtinyxml2-dev ,
+				 qtquickcontrols2-5-dev,
+				 libqt5core5a,
+         libignition-launch (= ${binary:Version}),
+         ${misc:Depends}
+Multi-Arch: same
+Description: Ignition Robotics Launch Library - Launch libraries
+  Ignition Common is a component in the ignition framework, a set of libraries
+  designed to rapidly develop robot applications.
