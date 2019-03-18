@@ -1,6 +1,6 @@
-ignition-plugin (0.2.0-1~sid) sid; urgency=medium
+ignition-launch (0.2.0-1~sid) sid; urgency=medium
 
-  * ignition-plugin 0.2.0-1 release
+  * ignition-launch 0.2.0-1 release
 
  -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 19 Mar 2019 00:21:00 +0100
 

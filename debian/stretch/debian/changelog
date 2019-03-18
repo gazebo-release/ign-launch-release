@@ -1,6 +1,6 @@
-ignition-plugin (0.2.0-1~stretch) stretch; urgency=medium
+ignition-launch (0.2.0-1~stretch) stretch; urgency=medium
 
-  * ignition-plugin 0.2.0-1 release
+  * ignition-launch 0.2.0-1 release
 
  -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 19 Mar 2019 00:20:59 +0100
 
