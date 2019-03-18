@@ -1,10 +1,10 @@
-ignition-plugin (0.2.0-1~bionic) bionic; urgency=medium
+ignition-launch (0.2.0-1~bionic) bionic; urgency=medium
 
   * ignition-plugin 0.2.0-1 release
 
  -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 19 Mar 2019 00:20:59 +0100
 
-ignition-plugin (0.1.0-1~bionic) bionic; urgency=medium
+ignition-launch (0.1.0-1~bionic) bionic; urgency=medium
 
   * ignition-plugin 0.1.0-1 release
 
