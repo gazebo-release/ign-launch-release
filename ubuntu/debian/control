@@ -47,7 +47,8 @@ Depends: libignition-cmake2-dev,
 	 libwebsockets-dev,
 	 qtquickcontrols2-5-dev,
 	 libqt5core5a,
-         libignition-launch (= ${binary:Version}),
+	 libignition-launch (= ${binary:Version}),
+	 ignition-gazebo2,
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Robotics Launch Library - Launch libraries
