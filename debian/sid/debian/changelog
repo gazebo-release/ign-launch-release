@@ -1,3 +1,9 @@
+ignition-launch (1.0.1-1~sid) sid; urgency=medium
+
+  * ignition-launch 1.0.1-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 22 May 2019 16:35:01 +0200
+
 ignition-launch (1.0.0-1~sid) sid; urgency=medium
 
   * ignition-launch 1.0.0-1 release
