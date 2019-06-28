@@ -1,3 +1,9 @@
+ignition-launch (1.2.0-1~stretch) stretch; urgency=medium
+
+  * ignition-launch 1.2.0-1 release
+
+ -- Nate Koenig <nate@osrfoundation.org>  Fri, 28 Jun 2019 16:08:29 -0700
+
 ignition-launch (1.1.0-1~stretch) stretch; urgency=medium
 
   * ignition-launch 1.1.0-1 release
