@@ -1,3 +1,9 @@
+ignition-launch (1.2.2-1~sid) sid; urgency=medium
+
+  * ignition-launch 1.2.2-1 release
+
+ -- Nate Koenig <nate@osrfoundation.org>  Wed, 07 Aug 2019 21:45:35 -0700
+
 ignition-launch (1.2.1-1~sid) sid; urgency=medium
 
   * ignition-launch 1.2.1-1 release
