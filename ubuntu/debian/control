@@ -18,7 +18,8 @@ Build-Depends: cmake,
                libtinyxml2-dev,
                libwebsockets-dev,
                qtquickcontrols2-5-dev,
-               libqt5core5a
+               libqt5core5a,
+               binutils-dev
 Vcs-Browser: https://bitbucket.org/ignitionrobotics/ign-launch-release
 Vcs-Hg: https://bitbucket.org/ignitionrobotics/ign-launch-release
 Homepage: https://bitbucket.org/ignitionrobotics/ign-launch
