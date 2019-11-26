@@ -1,3 +1,9 @@
+ignition-launch (1.4.0-1~bionic) bionic; urgency=medium
+
+  * ignition-launch 1.4.0-1 release
+
+ -- Louise Poubel <louise@openrobotics.org>  Tue, 26 Nov 2019 10:03:33 -0800
+
 ignition-launch (1.3.0-1~bionic) bionic; urgency=medium
 
   * ignition-launch 1.3.0-1 release
