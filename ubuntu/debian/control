@@ -8,7 +8,7 @@ Build-Depends: cmake,
                doxygen,
                libignition-cmake2-dev,
                libignition-common3-dev,
-               libignition-gazebo2-dev,
+               libignition-gazebo2-dev (>= 2.18.0),
                libignition-gui2-dev,
                libignition-msgs4-dev,
                libignition-plugin-dev,
@@ -37,7 +37,7 @@ Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
 	 libignition-common3-dev,
-	 libignition-gazebo2-dev,
+	 libignition-gazebo2-dev (>= 2.18.0),
 	 libignition-gui2-dev,
 	 libignition-msgs4-dev,
 	 libignition-plugin-dev,
@@ -49,7 +49,7 @@ Depends: libignition-cmake2-dev,
 	 qtquickcontrols2-5-dev,
 	 libqt5core5a,
 	 libignition-launch (= ${binary:Version}),
-	 ignition-gazebo2,
+	 ignition-gazebo2 (>= 2.18.0),
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Robotics Launch Library - Launch libraries
