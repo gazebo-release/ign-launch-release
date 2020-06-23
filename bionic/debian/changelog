@@ -1,8 +1,14 @@
+ignition-launch (1.7.1-1~bionic) bionic; urgency=medium
+
+  * ignition-launch 1.7.1-1 release
+
+ -- Nate Koenig <nate@osrfoundation.org>  Tue, 23 Jun 2020 16:15:21 -0700
+
 ignition-launch (1.7.0-1~bionic) bionic; urgency=medium
 
   * ignition-launch 1.7.0-1 release
 
- -- Nate Koenig <nate@osrfoundation.org>  Tue, 16 Jul 2020 06:46:27 -0700
+ -- Nate Koenig <nate@osrfoundation.org>  Tue, 16 Jun 2020 06:46:27 -0700
 
 ignition-launch (1.6.0-1~bionic) bionic; urgency=medium
 
