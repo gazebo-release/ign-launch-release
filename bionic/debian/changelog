@@ -1,3 +1,9 @@
+ignition-launch (1.9.0-1~bionic) bionic; urgency=medium
+
+  * ignition-launch 1.9.0-1 release
+
+ -- Nate Koenig <nate@osrfoundation.org>  Thu, 13 Aug 2020 12:22:35 -0700
+
 ignition-launch (1.8.0-1~bionic) bionic; urgency=medium
 
   * ignition-launch 1.8.0-1 release
